@@ -26,5 +26,5 @@ Start the server
 
     node server.js
   
-Then navigate to http://localhost:3000 in your browser.
+Then type http://localhost:3000 in your browser.
 
