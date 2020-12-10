@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="drawing.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" type="text/css" href="client.css">
+</head>
+
+<body>
+<h1><i><b><u>Janga Abhishek Whiteboard</u></b></i></h1>
+<div id="wrapper">
+    <div id="sidebar">
+        
+        <div id="palette">
+            <div class="colour" style="background-color: rgb(0,0,0)"></div>
+            <div class="colour" style="background-color: rgb(64,64,64)"></div>
+
+        </div>
+
+        <div class="setting" id="tools">
+            <div class="tool" data-tool="brush">Pencil</div>
+        </div>
+        <div class="setting" id="size">
+            Width of Pencil:
+            <select id="size-select" autocomplete="off">
+                <option value="4">thin</option>
+                <option value="10">fat-bold</option>
+            </select>
+        </div>
+    </div>
+    <div id="canvases">
+        <canvas id="drawing-canvas" width="1300" height="700">
+            Canvas not supported in your browser
+        </canvas>
+        <canvas id="preview-canvas" width="1300" height="700">
+            Canvas not supported in your browser
+        </canvas>
+    </div>
+
+</div>
+</body>
+</html>

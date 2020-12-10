@@ -1,0 +1,12 @@
+{
+  "name": "whiteboard",
+  "version": "10.0.0",
+  "description": "users in whiteboard drawing on a HTML5 canvas.",
+  "dependencies": {
+    "canvas": "^1.6.13",
+    "express": "^4.5.1",
+    "install": "^0.13.0",
+    "socket.io": "^3.0.4",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
